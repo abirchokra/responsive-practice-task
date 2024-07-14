@@ -7,6 +7,7 @@
 }
 body{
     font-family:"Lato", sans-serif ;
+   
 }
 .banner{
     width: 100%;
@@ -53,7 +54,7 @@ body{
         align-items: center;
         padding: 10px;
 
-        width: 360px;
+        width: 348px;
     }
     .left{
         margin-top: 10px;
@@ -205,8 +206,8 @@ body{
     .featured-flowers-images{
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        text-align: center;
+        /* align-items: center;
+        text-align: center; */
        
     }
     .featured-flowers-title h3{
@@ -223,11 +224,15 @@ body{
         
     }
 
-    #img-pera{
-        margin-top: 40px;
-    }
+  
    
     .bg-img-one{
+       width: 278px;
+       
+       
+       
+
+       
 
        
     } 
@@ -236,6 +241,9 @@ body{
         width: 284px;
         height: 398px;  
         margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
    
     }
 
@@ -243,15 +251,18 @@ body{
         width: 220px;
         height: 258px;
     }
-    
     .bg-img-two{
-        margin-left: 70px;
-    } 
+        width: 278px;
+    }
+    
     
     .fl-bg-two{
         width: 284px;
         height: 398px;  
         margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+       
    
     }
 
@@ -261,13 +272,17 @@ body{
     }
     
     .bg-img-three{
-        margin-left: 90px;
+        /* margin-left: 90px; */
+        width: 278px;
     } 
     
     .fl-bg-three{
         width: 284px;
         height: 398px;  
         margin-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        
    
     }
 
