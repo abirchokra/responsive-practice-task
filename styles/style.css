@@ -51,28 +51,34 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 10px;
+
+        width: 360px;
     }
     .left{
+        margin-top: 10px;
         width: 278px;
-        height: 400px;
+        height: 470px;
+        margin-left: -80px;
         /* margin-top: -100px; */
         
 
     }
     .left h2{
-        font-size: 50px;
+        font-size: 48px;
         font-weight: 600;
         margin-bottom: 10px;
         /* margin-left: -30px; */
-        margin-left: 20px;
+     
 
     }
     .left p{
-        font-size: 15px;
-        font-weight: 300;
+        width: 200px;
+        font-size: 13px;
+        font-weight: 200;
         margin-bottom: 10px;
         /* margin-left: -30px; */
-        margin-left: 17px;
+      
       
         
 
@@ -81,12 +87,15 @@ body{
         padding: 10px 23px 10px 23px;
         border-radius: 8px;
         /* margin-left: -30px; */
-        margin-left: 20px;
+       
+    }
+    .right{
+        width: 278px;
     }
     .right img{
-        width: 300px;
-        height: 400px;
-        margin-top: 40px;
+        width: 250px;
+        height: 380px;
+        
     }
     
 }
@@ -198,27 +207,36 @@ body{
         justify-content: center;
         align-items: center;
         text-align: center;
+       
     }
+    .featured-flowers-title h3{
+        font-size: 48px;
+        font-weight: 600;
+    }
+    
     .featured-flowers-title{
-        width: 370px;
+        width: 200px;
         height: 90px;
         margin-top: 80px;
-        margin-bottom: 80px;
+        margin-bottom: 300px;
         text-align: center;
         
     }
+
     #img-pera{
-        margin-top: 10px;
+        margin-top: 40px;
     }
    
     .bg-img-one{
-        margin-left: 70px;
+
+       
     } 
     
     .fl-bg-one{
-    width: 364px;
-    height: 398px;  
-    margin-top: 60px;
+        width: 284px;
+        height: 398px;  
+        margin-top: 60px;
+   
     }
 
     #flowers-one{
@@ -231,9 +249,10 @@ body{
     } 
     
     .fl-bg-two{
-    width: 364px;
-    height: 398px;  
-    margin-top: 60px;
+        width: 284px;
+        height: 398px;  
+        margin-top: 60px;
+   
     }
 
     #flowers-two{
@@ -246,9 +265,10 @@ body{
     } 
     
     .fl-bg-three{
-    width: 364px;
-    height: 398px;  
-    margin-top: 60px;
+        width: 284px;
+        height: 398px;  
+        margin-top: 60px;
+   
     }
 
     #flowers-three{
