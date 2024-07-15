@@ -309,7 +309,6 @@ body{
 .third-section-bg{
     width: 1090px;
     height: 147px;
-    border: 2px solid red;
     margin: 0 auto;
     padding: 70px;
     display: flex;
@@ -329,4 +328,25 @@ body{
     font-size: 1.25rem;
     font-weight: 600;
     margin-top: 24px;
+}
+
+@media screen and (max-width:576px) {
+    .third-section-bg{
+        flex-direction: column;
+        padding: 20px;
+        width: 200px;
+        
+       
+    }
+    .third-section{
+        width: 360px;
+        height: 800px;
+    }
+    #one{
+        margin-right: 5px;
+        padding: 32px;
+        margin-bottom: -290px;
+        margin-top: 260px;
+       
+    }
 }
